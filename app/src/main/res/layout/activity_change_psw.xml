@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bd_change">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="40dp">
+
+
+            <EditText
+                android:id="@+id/p_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/me"
+                android:drawablePadding="5dp"
+                android:hint="请输入账号"
+                android:maxLines="1"/>
+
+            <EditText
+                android:id="@+id/p_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/pass"
+                android:drawablePadding="5dp"
+                android:hint="请输入新密码"
+                android:maxLines="1"
+                android:inputType="textPassword"/>
+
+            <EditText
+                android:id="@+id/p_affirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/pass"
+                android:drawablePadding="5dp"
+                android:hint="请确认新密码"
+                android:maxLines="1"
+                android:inputType="textPassword"/>
+
+            <Button
+                android:id="@+id/btn_change"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="修改密码"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:background="#33b1e6"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

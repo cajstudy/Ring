@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/title_bg">
+
+<!--    <Button-->
+<!--        android:id="@+id/title_back"-->
+<!--        android:layout_width="73dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="left"-->
+<!--        android:layout_margin="1dp"-->
+<!--        android:onClick="myClickS"-->
+<!--        android:background="@drawable/back"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="#fff"-->
+<!--        tools:ignore="RtlHardcoded,UsingOnClickInXml" />-->
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Ring"
+        android:textColor="#fff"
+        android:textSize="30sp"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/back"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:background="@drawable/back"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="#fff" />-->
+
+</LinearLayout>

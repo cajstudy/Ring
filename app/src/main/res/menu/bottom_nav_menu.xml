@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/scan"
+        android:title="扫一下" />
+
+    <item
+        android:id="@+id/navigation_view"
+        android:icon="@drawable/ic_ling"
+        android:title="查一下" />
+
+    <item
+        android:id="@+id/navigation_edit"
+        android:icon="@drawable/ic_note"
+        android:title="记一下" />
+
+    <item
+        android:id="@+id/navigation_user"
+        android:icon="@drawable/ic_my"
+        android:title="我的" />
+</menu>
